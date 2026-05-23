@@ -27,3 +27,5 @@ npm Packages
 react-router-dom
   firebase
   react-hot-toast
+## Author
+Mohaiminul Islam
