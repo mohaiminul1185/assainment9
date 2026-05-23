@@ -27,7 +27,7 @@ React
 react-router-dom
   firebase
   react-hot-toast
-## Author
+5 ## Author
 Mohaiminul Islam
 
 Project completed successfully.
