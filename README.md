@@ -29,3 +29,4 @@ react-router-dom
   react-hot-toast
 ## Author
 Mohaiminul Islam
+Project completed successfully.
