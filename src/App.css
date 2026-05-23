@@ -1,0 +1,161 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f4f8fb;
+}
+
+img{
+  width:100%;
+  border-radius:10px;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 8%;
+  background:white;
+  box-shadow:0 2px 10px rgba(0,0,0,0.1);
+  position:sticky;
+  top:0;
+}
+
+.logo{
+  font-size:30px;
+  font-weight:bold;
+  color:#ff6b00;
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+.hero{
+  height:90vh;
+  background:
+  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+  url('https://images.unsplash.com/photo-1517849845537-4d257902454a?q=80&w=1200');
+
+  background-size:cover;
+  background-position:center;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  color:white;
+  padding:20px;
+}
+
+.hero-content h1{
+  font-size:60px;
+  margin-bottom:20px;
+}
+
+.hero-content p{
+  font-size:20px;
+  margin-bottom:20px;
+}
+
+.btn{
+  background:#ff6b00;
+  color:white;
+  padding:12px 25px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  font-size:18px;
+}
+
+.btn:hover{
+  background:#e85f00;
+}
+
+.section-title{
+  text-align:center;
+  margin:60px 0 30px;
+  font-size:40px;
+  color:#333;
+}
+
+.services{
+  width:90%;
+  margin:auto;
+
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:25px;
+}
+
+.card{
+  background:white;
+  border-radius:15px;
+  overflow:hidden;
+  box-shadow:0 4px 15px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+}
+
+.card-content{
+  padding:20px;
+}
+
+.card-content h2{
+  margin-bottom:10px;
+}
+
+.card-content p{
+  margin-bottom:10px;
+  color:#666;
+}
+
+.extra{
+  width:90%;
+  margin:60px auto;
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+
+.extra-box{
+  background:white;
+  padding:30px;
+  border-radius:15px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.footer{
+  background:#111;
+  color:white;
+  text-align:center;
+  padding:30px;
+  margin-top:50px;
+}
+
+@media(max-width:768px){
+
+  .hero-content h1{
+    font-size:35px;
+  }
+
+  .navbar{
+    flex-direction:column;
+    gap:15px;
+  }
+
+}

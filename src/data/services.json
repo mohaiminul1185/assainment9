@@ -1,0 +1,29 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Grooming",
+    "providerName": "PawCare Studio",
+    "price": 30,
+    "rating": 4.8,
+    "description": "Winter grooming for pets",
+    "image": "https://i.ibb.co/F4p3G4t/dog1.jpg"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Pet Coat Fitting",
+    "providerName": "Cozy Pets",
+    "price": 25,
+    "rating": 4.9,
+    "description": "Warm winter coat service",
+    "image": "https://i.ibb.co/F4p3G4t/dog1.jpg"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Paw Treatment",
+    "providerName": "Pet Care",
+    "price": 20,
+    "rating": 4.7,
+    "description": "Healthy paws in winter",
+    "image": "https://i.ibb.co/F4p3G4t/dog1.jpg"
+  }
+]
