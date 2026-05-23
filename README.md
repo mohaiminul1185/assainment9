@@ -14,7 +14,7 @@ A winter pet care website for pet lovers.
   Responsive Design
  Netlify Deployment
 
-Technologies Used
+3 Technologies Used
 
 React
  React Router
