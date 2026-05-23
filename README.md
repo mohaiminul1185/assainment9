@@ -1,4 +1,4 @@
- WarmPaws 🐾
+1 WarmPaws 🐾
 
 A winter pet care website for pet lovers.
 
