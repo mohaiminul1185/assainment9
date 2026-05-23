@@ -22,7 +22,7 @@ React
  CSS
  Netlify
 
-npm Packages
+4 npm Packages
 
 react-router-dom
   firebase
